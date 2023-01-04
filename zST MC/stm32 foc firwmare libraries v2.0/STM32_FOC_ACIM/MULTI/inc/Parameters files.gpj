@@ -1,0 +1,10 @@
+#!gbuild
+[Project]
+STM32_FOC_ACIM\inc\STM32F10x_MCconf.h
+STM32_FOC_ACIM\inc\MC_acmotor_prm.h
+STM32_FOC_ACIM\inc\MC_Control_Param.h
+STM32_FOC_ACIM\inc\MC_encoder_param.h
+STM32_FOC_ACIM\inc\MC_pwm_1shunt_prm.h
+STM32_FOC_ACIM\inc\MC_pwm_3shunt_prm.h
+STM32_FOC_ACIM\inc\MC_pwm_ics_prm.h
+STM32_FOC_ACIM\inc\MC_tacho_prm.h

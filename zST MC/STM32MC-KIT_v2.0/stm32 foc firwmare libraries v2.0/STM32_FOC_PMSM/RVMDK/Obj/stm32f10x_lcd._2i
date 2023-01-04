@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\STM32F10XFWLIB\inc -I ..\inc -I ..\
+-ID:\MDK536\ARM\RV31\INC
+-IDevice\Include
+-D__UVISION_VERSION="536" -DVECT_TAB_FLASH
+-o .\obj\stm32f10x_lcd.o --omf_browse .\obj\stm32f10x_lcd.crf --depend .\obj\stm32f10x_lcd.d --feedback ".\Obj\BOOT_FLASH.fed" "..\src\stm32f10x_lcd.c"

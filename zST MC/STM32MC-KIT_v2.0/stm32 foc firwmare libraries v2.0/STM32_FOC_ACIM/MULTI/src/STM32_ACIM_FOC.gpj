@@ -1,0 +1,40 @@
+#!gbuild
+[Program]
+	-object_dir=objs\STM32_ACIM_FOC
+	-L.
+	-L./lib
+	-Olink
+	-memory
+	-gsize
+	--no_commons
+	-Owholeprogram_libs
+	-Osize
+STM32_FOC_ACIM\stm32f10x_it.c
+	-Ospeed
+main.c
+MC_Clarke_Park.c
+	-Ospeed
+MC_Display.c
+MC_Globals.c
+MC_IFOC_Drive.c
+	-Ospeed
+MC_MotorControl_Layer.c
+MC_Keys.c
+MC_PID_regulators.c
+	-Ospeed
+stm32f10x_encoder.c
+stm32f10x_lcd.c
+stm32f10x_MCdac.c
+stm32f10x_svpwm_1shunt.c
+	-Ospeed
+stm32f10x_svpwm_3shunt.c
+	-Ospeed
+stm32f10x_svpwm_ics.c
+	-Ospeed
+stm32f10x_tacho.c
+stm32f10x_Timebase.c
+cortexm3_macro_asm.arm
+stm32f10x_vector.c
+tgt\standalone_romrun.ld
+lib\STM32F10XFWLIB.gpj		[Library]
+cortexm3_macro.c
